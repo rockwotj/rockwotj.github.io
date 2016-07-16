@@ -1,0 +1,23 @@
+---
+---
+@import 'material-kit/colors';
+
+$brand-primary: $blue;
+
+@import 'material-kit/variables';
+@import 'material-kit/mixins';
+@import 'material-kit/shadows';
+@import 'material-kit/core';
+
+@import 'material-kit/ripples';
+
+@import 'material-kit/example-pages';
+
+.panel {
+  padding-top: 25px;
+}
+
+.notice {
+  position: relative;
+  top: 25px;
+}
