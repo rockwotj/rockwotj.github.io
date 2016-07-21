@@ -2,7 +2,7 @@
 layout: post
 title:  "New Website!"
 date:   2016-07-16 09:35:00
-image: /assets/img/barnesbutte.jpg
+image: /assets/img/headers/barnesbutte.jpg
 author: Tyler Rockwood
 ---
 

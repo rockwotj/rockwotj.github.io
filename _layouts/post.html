@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="header header-filter" style="background-image: url({{ page.image | default: '/assets/img/smith-rock.jpg'}});">
+<div class="header header-filter" style="background-image: url({{ page.image | default: '/assets/img/headers/smith-rock.jpg'}});">
 </div>
 <div class="main main-raised">
   <div class="container">
@@ -16,7 +16,7 @@ layout: default
       </div>
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" style="padding-top: 10px;">
         <div class="post-content" itemprop="articleBody">
-          {{ content }}
+          {{ content | replace: '<img', '<img class="img-responsive"' }}
         </div>
 
       </article>
