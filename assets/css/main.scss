@@ -17,7 +17,22 @@ $brand-primary: $blue;
   padding-top: 25px;
 }
 
+.panel.comment-card {
+  padding: 15px;
+}
 .notice {
   position: relative;
   top: 25px;
+}
+
+.form-group {
+  margin: 0;
+}
+
+article.post {
+  margin-bottom: 60px;
+}
+
+form.form-horizontal {
+  margin-top: 50px;
 }
