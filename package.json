@@ -1,0 +1,26 @@
+{
+  "name": "rockwotj.github.io",
+  "version": "1.0.0",
+  "description": "Tyler Rockwood's Personal Website",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockwotj/rockwotj.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "website"
+  ],
+  "author": "Tyler Rockwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockwotj/rockwotj.github.io/issues"
+  },
+  "homepage": "https://github.com/rockwotj/rockwotj.github.io#readme",
+  "devDependencies": {
+    "firebase-tools": "^3.0.8"
+  }
+}

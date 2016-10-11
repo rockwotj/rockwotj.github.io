@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "comments": {
+      ".read": true,
+      "$post": {
+        "$comment": {
+          ".write": "data.val() == null",
+          ".validate": "newData.hasChildren(['name', 'email', 'message'])",
+          "timestamp": {
+            ".validate": "newData.val() == now"
+          }
+        }
+      }
+    }
+  }
+}
