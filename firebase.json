@@ -3,6 +3,15 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "_site"
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/*.md",
+      "database.rules.json",
+      "**/node_modules/**",
+      "package.json",
+      "CNAME"
+    ]
   }
 }
